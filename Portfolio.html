@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lekzi Portfolio website</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    
+    <!-- header section starts -->
+
+<header>
+
+   <div class="user">
+       <img src="Lekzi.jpg" alt="">
+       <h3 class="name">Balogun Enoch</h3>
+       <p class="post">Front End Developer</p>
+   </div>
+
+    <nav class="navbar">
+        <ul>
+            <li> <a href="#home">home</a> </li>
+            <li> <a href="#about">About</a> </li>
+            <li> <a href="#Service">Service</a> </li>
+            <li> <a href="#Education">Education</a> </li>
+            <li> <a href="#Contact">Contact</a> </li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- content section starts -->
+
+<div class="container">
+
+    <section class="home" id="home">
+
+        <h3>Hey there...</h3>
+        <h3 class="name">My name is <span>Balogun Enoch</span></h3>
+        <h3 class="post">I am  <span class="typing-text">front end developer</span></h3>
+        <br> <br>
+        <p><br></p>
+        <a href="mailto:masterlekzi@gmail.com"><button><class class="btn">Hire Me</class></button></a>
+
+        <div class="share">
+            <a href="https://facebook.com" class="fab fa-facebook-f"></a>
+            <a href="https://twitter.com" class="fab fa-twitter"></a>
+            <a href="https://instagram.com" class="fab fa-instagram"></a>
+            <a href="https://pinterest.com" class="fab fa-pinterest"></a>
+            <a href="linkedin" class="fab fa-linkedin"></a>
+        </div>
+    </section>
+
+<!-- about section -->
+
+<section class="about" id="about">
+
+        <h1 class="heading">about me</h1>
+
+    <div class="content">
+        <h3 class="name">My name is <span>Balogun Enoch</span></h3>
+        <p>i'm a web developer, affiliate markerter and a programmer. <p>My best Programming language is python and batch i have many tools i've developed with both python and batch and many other underdeveloped tools, it's great being a programmer </p> </p>
+    </div>
+
+    <div class="skills">
+        <div class="progress">
+            <h3>html <span>90%</span></h3>
+            <div class="bar"></div>
+    </div>
+        <div class="skills">
+            <div class="progress">
+                <h3> css <span>95%</span></h3>
+                <div class="bar"></div>
+    </div>
+    <div class="skills">
+        <div class="progress">
+            <h3>Javascript <span>55%</span></h3>
+            <div class="bar"></div>
+        </div>
+        <div class="skills">
+            <div class="progress">
+                <h3>python <span>70%</span></h3>
+                <div class="bar"></div>
+            </div>
+            <div class="skills">
+            <div class="progress">
+                <h3>batch <span>80%</span></h3>
+                <div class="bar"></div>
+            </div>
+        </div> 
+
+    </section>
+
+    <!---Service section-->
+    <section class="Service" id="Service"></section>
+    
+    <h1 class="heading">My Services</h1>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fab fa-html5"></i>
+            <p>i offer html5 service at the best and affordable rate</p>
+        </div>
+        
+        <div class="box">
+                <i class="fab fa-css3"></i>
+                <p>i offer fa-css3 service at the best and affordable rate</p>
+        </div>
+            
+        <div class="box">
+                <i class="fab fa-js"></i>
+                <p>i offer Javascript service at the best and affordable rate</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-paint-brush"></i>
+            <p>i offer python service at the best and affordable rate</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <p>i offer batch service at the best and affordable rate</p>
+        </div>
+        
+    </div>
+
+</div>
+
+<!-- content section ends -->
+
+
+<!-- type.js cdn link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+<script>
+
+    var type = new Typed('.typing-text',{
+        strings : [ 'a front end developer', 'a Back end developer', 'an Affiliate Marketer', 'a Programmer' ],
+        typeSpeed: 120,
+        loop:true
+    });
+
+</script>
+</body>
+</html>
